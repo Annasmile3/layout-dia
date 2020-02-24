@@ -1,0 +1,35 @@
+@import "utils";
+@import "typography";
+@import "header";
+@import "nav";
+@import "info";
+@import "gallery";
+@import "button";
+@import "welcome";
+@import "aboutus";
+@import "card";
+@import "services";
+@import "box";
+@import "work";
+@import "testimonials";
+@import "person";
+@import "vision";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: $text-color;
+  background-color: #f2f9ff;
+}
